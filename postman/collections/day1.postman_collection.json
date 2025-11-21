@@ -1,20 +1,14 @@
 {
   "info": {
-    "_postman_id": "a27dbf81-b76f-4394-a911-0b5a2e005331",
+    "_postman_id": "f6ef9bd6-5aff-4427-9a9a-27e443b7a999",
     "name": "day1",
-    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-    "_exporter_id": "39281797"
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
   },
   "item": [
     {
       "name": "GetRequest",
-      "id": "f166a9b9-186b-477d-a990-58d52c3e47b4",
-      "protocolProfileBehavior": {
-        "disableBodyPruning": true
-      },
       "request": {
         "method": "GET",
-        "header": [],
         "body": {
           "mode": "raw",
           "raw": "",
@@ -36,12 +30,10 @@
             "objects"
           ]
         }
-      },
-      "response": []
+      }
     },
     {
       "name": "CreateRequest",
-      "id": "f1fc91ec-9e00-4884-8b58-007303bb0f9e",
       "request": {
         "method": "POST",
         "header": [
@@ -72,12 +64,10 @@
             "objects"
           ]
         }
-      },
-      "response": []
+      }
     },
     {
       "name": "UpdateRequest",
-      "id": "91e93d1a-510d-4d77-a443-a01e342dd8d3",
       "request": {
         "method": "PUT",
         "header": [
@@ -109,12 +99,10 @@
             "ff8081819782e69e019a96628b23156e"
           ]
         }
-      },
-      "response": []
+      }
     },
     {
       "name": "Delete Request",
-      "id": "8d972701-ac58-4d0a-af9c-23a30806a647",
       "request": {
         "method": "DELETE",
         "header": [
@@ -137,15 +125,12 @@
             "ff8081819782e69e019a96628b23156e"
           ]
         }
-      },
-      "response": []
+      }
     },
     {
       "name": "getscript",
-      "id": "07b5b714-539a-493c-8262-acca3e680ed8",
       "request": {
         "method": "GET",
-        "header": [],
         "url": {
           "raw": "https://postman-echo.com/get?var={{my_variable}} ",
           "protocol": "https",
@@ -163,8 +148,16 @@
             }
           ]
         }
-      },
-      "response": []
+      }
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": ""
+        }
+      }
     }
   ]
 }
